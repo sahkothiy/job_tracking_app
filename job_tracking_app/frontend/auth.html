@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Tracker - Login</title>
+  <link rel="stylesheet" href="./css/auth.css" />
+</head>
+<body>
+  <div class="container">
+  <h1>Job Tracker</h1>
+
+  <div id="loginCard" class="card">
+    <h2>Login</h2>
+
+    <label>Email</label>
+    <input id="loginEmail" type="email" placeholder="sahil@test.com" />
+
+    <label>Password</label>
+    <input id="loginPassword" type="password" placeholder="123456" />
+
+    <button id="loginBtn">Login</button>
+    <p id="loginMsg"></p>
+
+    <div class="switch-text">
+      New user? <span id="showRegister">Create account</span>
+    </div>
+  </div>
+
+  <div id="registerCard" class="card" style="display:none;">
+    <h2>Create Account</h2>
+
+    <label>Name</label>
+    <input id="regName" type="text" placeholder="Sahil" />
+
+    <label>Email</label>
+    <input id="regEmail" type="email" placeholder="sahil@test.com" />
+
+    <label>Password</label>
+    <input id="regPassword" type="password" placeholder="123456" />
+
+    <button id="registerBtn">Register</button>
+    <p id="regMsg"></p>
+
+    <div class="switch-text">
+      Already have an account? <span id="showLogin">Login</span>
+    </div>
+  </div>
+  </div>
+
+  <script src="./js/auth.js"></script>
+</body>
+</html>
