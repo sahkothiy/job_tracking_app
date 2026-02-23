@@ -1,2 +1,2 @@
 # job_tracking_app
-Full-stack Job Application Tracker using Spring Boot, MySQL, JWT, and modern JavaScript frontend.
+A full-stack Job Application Tracking system built with Java, Spring Boot, Apache Maven, MySQL, and JWT Authentication.
