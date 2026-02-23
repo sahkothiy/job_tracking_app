@@ -1,5 +1,5 @@
 // frontend/js/app.js
-const API_BASE = "http://localhost:8080/api/applications";
+const API_BASE = "https://jobtrackingapp-production.up.railway.app/api/applications";
 
 const loginBtn = document.getElementById("loginBtn");
 const logoutBtn = document.getElementById("logoutBtn");

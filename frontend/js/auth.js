@@ -1,4 +1,4 @@
-const API = "http://localhost:8080/api/auth";
+const API = "https://jobtrackingapp-production.up.railway.app/api/auth";
 
 const loginCard = document.getElementById("loginCard");
 const registerCard = document.getElementById("registerCard");
